@@ -1,0 +1,6 @@
+// 提示檔案會協助 Visual Studio IDE 解譯 Visual C++ 識別碼
+// 例如函式和巨集的名稱。
+// 如需詳細資訊，請參閱 https://go.microsoft.com/fwlink/?linkid=865984
+#define ASSERT(f) DEBUG_ONLY((void) ((f) || !::AfxAssertFailedLine(THIS_FILE, __LINE__) || (AfxDebugBreak(), 0)))
+#define ASSERT(x) _ASSERT(x)
+#define ASSERT(exp) ((VOID) 0)
