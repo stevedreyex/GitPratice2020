@@ -8,6 +8,15 @@ bool Guess(int number) {
 		Random r;
 		target = r.Next() % 100 + 1;
 	}
+	if (number == target) {
+		std::cout << "Correct !!";
+		target = -1;
+		return true;
+	}
+	else if (number > target) std::cout << "Smaller" << std::endl;
+	else if (number < target) std::cout << "Bigger" << std::endl;
+	return false;
+
 	if (number > target) {
 		std::cout << "Smaller" << std::endl;
 		return false;
@@ -17,6 +26,7 @@ bool Guess(int number) {
 		return false;
 	}
 	return true;
+>>>>>>> 202cb1a90f4c228000fe147f138f034b353ec77d
 }
 int main(array<System::String ^> ^args)
 {
