@@ -28,7 +28,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Debug4.cpp">
+    <ClCompile Include="ConsoleApplication1.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="AssemblyInfo.cpp">
