@@ -6,11 +6,11 @@ using namespace System::Runtime::CompilerServices;
 using namespace System::Runtime::InteropServices;
 using namespace System::Security::Permissions;
 
-[assembly:AssemblyTitleAttribute(L"ConsoleApplication1")];
+[assembly:AssemblyTitleAttribute(L"Debug2")];
 [assembly:AssemblyDescriptionAttribute(L"")];
 [assembly:AssemblyConfigurationAttribute(L"")];
 [assembly:AssemblyCompanyAttribute(L"")];
-[assembly:AssemblyProductAttribute(L"ConsoleApplication1")];
+[assembly:AssemblyProductAttribute(L"Debug2")];
 [assembly:AssemblyCopyrightAttribute(L"Copyright (c)  2020")];
 [assembly:AssemblyTrademarkAttribute(L"")];
 [assembly:AssemblyCultureAttribute(L"")];
