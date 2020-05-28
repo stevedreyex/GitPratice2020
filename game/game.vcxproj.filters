@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map1_1.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hero.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BloodBar.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Attack.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scarecrow.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GreenSlime.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map1_6.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Maps.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerStatus.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Health.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ItemAttribute.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BlueSlime.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RedSlime.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map1_2.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Potion.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Clock.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Box.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ABoss.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BossBloodBar.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RandomAttribute.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RedGoblin.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map2_1.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map2_2.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map2_3.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map2_4.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Arrow.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mygame.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map1_1.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Hero.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Maps.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BloodBar.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objs.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Attack.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scarecrow.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GreenSlime.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map1_6.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerStatus.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Health.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ItemAttribute.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BlueSlime.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RedSlime.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map1_2.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Potion.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Clock.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Box.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ABoss.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BossBloodBar.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RandomAttribute.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RedGoblin.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map2_1.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map2_2.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map2_3.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map2_4.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Arrow.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\S__4784130.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\PLAYER1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\hero1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\scarecrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\attack1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood_almost_die.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood_full.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood_little_damaged.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood34.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Counter8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingL1 .bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingL2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingL3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingL4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingR1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingR2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingR3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\walkingR4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Clock8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\hero2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FireAttack.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\FireAttackBoom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\beggersword.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map1-6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Source\RES\map1-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\startbackgrond.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\startpicture.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood2over10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood3over10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood4over10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood6over10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood7over10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\blood8over10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\StatusBar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\skill_e_pic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\skill_q_fire_pic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_health.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_fire_attribute.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_ice_attribute.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_plant_attribute.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\PlantAttack.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\skill_q_plant_pic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\skill_q_ice_pic.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_potion.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_clock.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\box.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\start_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\story_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\story_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\box2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Aboss_Attacked.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_rand_elem.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map2-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map2-2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map2-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\map2-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
